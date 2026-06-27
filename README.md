@@ -24,7 +24,8 @@ sudo python3 network_sniffer.py
 ````
 
 Press Ctrl+C to stop capturing.
+
+```
 ⚠️ Legal Disclaimer
 This tool is designed exclusively for educational purposes and authorized network testing. You must have explicit written permission to sniff traffic on any network you do not own. Unauthorized interception of network traffic is illegal in most jurisdictions. Use responsibly.
-
-
+```
