@@ -23,14 +23,14 @@ pip install -r requirements.txt
 sudo python3 network_sniffer.py
 
 Press Ctrl+C to stop capturing.
-
+````
 ⚠️ Legal Disclaimer
 This tool is designed exclusively for educational purposes and authorized network testing. You must have explicit written permission to sniff traffic on any network you do not own. Unauthorized interception of network traffic is illegal in most jurisdictions. Use responsibly.
 
 
 **For the Keylogger README (`Keylogger-Project/README.md`):**
 
-```markdown
+markdown
 # ⚠️ Basic Keylogger Simulation - EDUCATIONAL USE ONLY
 
 **Author:** Saddam Hussain
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 # Run the script (No sudo required)
 python3 keylogger.py
-
+````
 Press ESC to stop logging.
 
 ⚠️ CRITICAL LEGAL WARNING
@@ -65,19 +65,3 @@ The author and Arch Technologies take zero responsibility for any malicious or i
 
 
 ---
-
-### Step 5: Upload (Push) Them Separately
-
-Open your terminal and run these commands **separately** for each folder:
-
-**For the Network Sniffer:**
-```bash
-cd /path/to/Network-Sniffer-Project
-git init
-git add .
-git commit -m "Initial commit: Basic Network Sniffer for Cyber Security Internship"
-git remote add origin https://github.com/saddam-cybersec/Network-Sniffer-Python.git
-git branch -M main
-git push -u origin main
-
-````
